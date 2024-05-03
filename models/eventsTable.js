@@ -3,8 +3,8 @@ const createEventsTable = () => {
     const createTableQuery = `
       CREATE TABLE IF NOT EXISTS eventsTable (
         _id SERIAL PRIMARY KEY,
-        event VARCHAR(255) ,
-        date VARCHAR(255),
+        event VARCHAR(255),
+        event_date DATE,
         venue VARCHAR(255) 
       )
     `;
